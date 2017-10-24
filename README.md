@@ -12,5 +12,5 @@ POST /autocomplete/{item}?weight={int}
 -> 200 OK with no response body
 
 > GET /autocomplete/{prefix}
--> 200 OK with body returns JSON list of strings
+-> 200 OK with body returns JSON list of strings with provided prefix
 ```
